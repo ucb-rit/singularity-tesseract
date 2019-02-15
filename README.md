@@ -2,7 +2,7 @@
 
 
 Build a Tesseract container, push it to Dockerhub, and convert it 
-to run as a Singularity container on Jetstream, Savio, or anyehwere
+to run as a Singularity container on Jetstream, Savio, or anywhere
 else that you have the Singularity container runtime installed.
 
 ```bash
@@ -25,3 +25,5 @@ tesseract 4.0.0.beta.1
 ```
 
 As of 08 August 2018, these instructions have been tested using Singularity version 2.6.0.
+
+This repository was replicated from https://github.com/ucberkeley/brc-cyberinfrastructure/tree/master/tesseract-containerized on 2019-02-15.
