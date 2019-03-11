@@ -6,8 +6,8 @@ to run as a Singularity container on Jetstream, Savio, or anywhere
 else that you have the Singularity container runtime installed.
 
 ```bash
-$ git clone https://github.com/ucberkeley/brc-cyberinfrastructure
-$ cd brc-cyberinfrastructure/tesseract-containerized
+$ git clone https://github.com/ucb-rit/singularity-tesseract
+$ cd singularity-tesseract
 $ docker build --rm --tag tesseract .
 $ docker tag tesseract:latest ucbrit/tesseract:latest
 $ docker push ucbrit/tesseract:latest
