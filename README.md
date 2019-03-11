@@ -14,6 +14,17 @@ $ docker push ucbrit/tesseract:latest
 $ singularity pull docker://ucbrit/tesseract:latest
 ```
 
+To confirm that Tesseract was installed in the Docker container, run the following command (presumably before pushing the container to Docker Hub):
+
+```bash
+-->sudo docker run -it ucbrit/tesseract:latest tesseract --version
+Tesseract Open Source OCR Engine v4.1.0-rc1-56-g7fbd with Leptonica
+[...]
+-->
+```
+
+Note the version of the installed application in the output above.
+
 To test, shell into the Singularity container and check that Tesseract is running in the container:
 
 ```bash
